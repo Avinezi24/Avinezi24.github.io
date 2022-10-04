@@ -1,0 +1,181 @@
+@font-face{
+  font-family: Carlhes Browny;
+  src: url(font/fon.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+   height: 100vh;
+    background-image: url("bg.jpg");
+    background-size: 100%;
+}
+header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.log{
+    position: relative;
+    padding: 10px;
+    top: 15px;
+    left: 90px;
+    color: rgba(255, 0, 0, 0.836);
+    background-size: 100%;
+    font-size: 30px;
+    font-family: carlhes browny;
+
+}
+nav{
+    position: relative;
+    padding: 0px 0px 10px 0px;
+    bottom: 20px;;
+    
+
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+}
+nav li{
+    position: relative;
+   left: 70%;
+    font-size: 25px;
+    font-family: Carlhes Browny;
+    color: rgb(249, 246, 246);
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.about{
+  color: rgb(255, 255, 255);
+
+}
+.home:hover,.about:hover,.ridle:hover{
+    padding: 0px 10px 0px 10px;
+    color: red;
+    background-size:500%;
+    border-radius: 5px;
+}
+
+.isi{
+  display: flex;
+  justify-content: center;
+  color: rgb(162, 93, 93);
+}
+.judul{
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family:impact;
+  text-shadow:
+  -1px -1px 0 rgb(0, 0, 0),
+  1px -1px 0 rgb(0, 0, 0),
+  -1px 1px 0 rgb(0, 0, 0),
+  1px 1px 0 rgb(0, 0, 0);
+}
+.isi2{
+  padding: 20px 10px;
+  color: rgb(162, 118, 118);
+  font-size: 20px;
+  font-family:sagoe UI;
+  text-shadow:
+  -1px -1px 0 rgb(78, 66, 66),
+  0px -0px 0 rgb(0,0,0),
+  -1px 1px 0 rgb(0,0,0),
+  0px 0px 0 rgb(0,0,0);
+}
+.container{
+  margin: 20px 80px;
+  padding:10px;
+  background-color: rgb(219, 215, 215,.3);
+  height: 60vh;
+  width: 60%;
+  border-radius: 20px;
+}
+
+/* BAGIAN about */
+.me{
+
+  margin-top: 40px;
+  margin-left: 80px;
+  width: 20%;
+  border-radius: 20px;
+}
+.data{
+  font-size: 20px;
+  font-family: Verdana;
+}
+.nama{
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+  list-style: none;
+  margin-left: 40%;
+  bottom: 250px;
+  gap: 10px;
+}
+.nim{
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+  list-style: none;
+  margin-left: 40%;
+  bottom: 250px;
+  gap: 27px;
+}
+.kelas{
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+  list-style: none;
+  margin-left: 40%;
+  bottom: 250px;
+  gap: 15px;
+}
+
+
+
+/* bagian footer */
+
+footer{
+    background-color: rgb(247, 247, 247,0.2);
+    margin-top: 10%;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width:200px) and (max-width:992px){
+  header{
+    width: 115%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-size: cover;
+}
+nav{
+  position: relative;
+  padding: 0px 0px 10px 0px;
+  left: 80px;
+  bottom: 5px;
+
+}
+nav ul{
+
+  font-size: 12px;
+  font-family: Carlhes Browny;
+  color: rgb(249, 246, 246);
+  list-style: none;
+  gap: 10px;
+  cursor: pointer;
+}
+  
+}

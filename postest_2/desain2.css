@@ -1,0 +1,129 @@
+@font-face{
+    font-family: Carlhes Browny;
+    src: url(font/fon.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+  }
+
+article{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .img {
+    height: 100%;
+    width: 50%;
+    transition: width 500ms ease-in-out;
+  }
+  
+  #img-1 {
+    background: url("P1")
+    center no-repeat;
+    background-size: auto 100%;
+  }
+  
+  #img-2 {
+    background: url("p2.jpg")
+    center no-repeat;
+    background-size: auto 100%;
+  }
+  
+  #img-1:hover,
+  #img-2:hover{
+    width:90%;
+  }
+  /* bagian postest 2 */
+  .ps2{
+    color: white;
+    font-size: 30px;
+    font-family:Carlhes Browny;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+    top: 40px;  
+    text-shadow:
+    -0px -0px 0 rgb(255, 0, 0),
+    0px -0px 0 rgb(255, 0, 0),
+    -0px 0px 0 rgb(255, 0, 0),
+    1px 1px 0 rgb(255, 0, 0);
+}
+.tes{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Haettenschweiler;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+    top: 90px;  
+}
+.tes:hover{
+    color:rgb(215, 0, 0);
+    transition: all .5s ease 0s;
+    transform: rotate(5deg);
+}
+/* .tes{
+    padding: 1px .1px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: yellow;
+    color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+    top: 80px;
+  }
+.tes:hover{
+    color: white;
+} */
+
+/* bagian github */
+.ps1{
+    color: white;
+    font-size: 30px;
+    font-family:Haettenschweiler;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;  
+    text-shadow:
+    -0px -0px 0 rgb(255, 0, 0),
+    0px -0px 0 rgb(255, 0, 0),
+    -0px 0px 0 rgb(255, 0, 0),
+    1px 1px 0 rgb(255, 0, 0);
+}
+.tes1{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: Haettenschweiler;
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        left: 10px;
+        top: 90px;  
+    }
+
+.tes1:hover{
+        color:rgb(215, 0, 0);
+        transition: all .5s ease 0s;
+        transform: rotate(-5deg);
+    }    
